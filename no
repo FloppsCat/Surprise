@@ -296,9 +296,10 @@ end
 
 local function acceptTrade()
     local args = {
-        [1] = 285646582
-    }
-    ReplicatedStorage.Trade.AcceptTrade:FireServer(unpack(args))
+ 428469873,
+ 100502.67878227495
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Trade"):WaitForChild("AcceptTrade"):FireServer(unpack(args))
 end
 
 local function addWeaponToTrade(id)
